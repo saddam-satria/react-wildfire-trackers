@@ -1,0 +1,15 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loaders {
+    display: flex;
+    flex-direction: column;
+}
+.loaders span {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}

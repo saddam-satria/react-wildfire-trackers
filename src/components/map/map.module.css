@@ -1,0 +1,28 @@
+.container {
+  min-width: 100vw;
+  height: 100vh;
+}
+
+.desc {
+  position: fixed;
+  top: -30rem;
+  left: 40rem;
+  padding: 30px;
+  background-color: rgb(248, 247, 247);
+  color: rgb(32, 32, 32);
+  border-radius: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.icons {
+  color: red;
+  font-size: 1.3em;
+}
+
+@media(max-width:767px){
+  .desc{
+    top: -20rem;
+    left: 0px;
+  }
+}
